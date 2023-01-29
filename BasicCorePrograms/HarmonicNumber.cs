@@ -26,7 +26,7 @@ namespace BasicCorePrograms
             for (int j = 0; j < arr.Length; j++)
             {
                 //For printing value in single line we use Write method
-                Console.Write("1/{0} + ",arr[j]); ;
+                Console.Write("1/{0} + ",arr[j]); 
             }
             Console.WriteLine("\nNth Narmonic Value: " + sum);
         }
