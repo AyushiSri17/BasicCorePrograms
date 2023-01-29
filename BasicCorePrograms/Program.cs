@@ -12,7 +12,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome To C# Basic Core Programs");
             Console.WriteLine("Enter the option of the program you want to perform");
-            Console.WriteLine("1. FlipCoin \n2. LeapYear \n3. PowerOf2 \n4. PowerOfTwo");
+            Console.WriteLine("1. FlipCoin \n2. LeapYear \n3. PowerOf2 \n4. PowerOfTwo \n5. HarmonicNumber");
             int option=Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -31,6 +31,10 @@ namespace BasicCorePrograms
                 case 4:
                     PowerOfTwo p = new PowerOfTwo();
                     p.PowerOfTwoUsingMethod();
+                    break;
+                case 5:
+                    HarmonicNumber nb = new HarmonicNumber();
+                    nb.HarmonicValue();
                     break;
                 default:
                     Console.WriteLine("Please choose the correct option");
